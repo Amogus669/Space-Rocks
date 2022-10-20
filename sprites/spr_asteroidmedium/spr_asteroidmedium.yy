@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"788b8fb8-0c75-4d71-8be1-975f8b52a1ae","path":"sprites/Spr_Ship/Spr_Ship.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"788b8fb8-0c75-4d71-8be1-975f8b52a1ae","path":"sprites/Spr_Ship/Spr_Ship.yy",},"LayerId":{"name":"6da41ed4-35dd-4217-83d8-107187a761c0","path":"sprites/Spr_Ship/Spr_Ship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Ship","path":"sprites/Spr_Ship/Spr_Ship.yy",},"resourceVersion":"1.0","name":"788b8fb8-0c75-4d71-8be1-975f8b52a1ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"af22c0b2-75e4-4746-a62e-37e9a55bf6b6","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"af22c0b2-75e4-4746-a62e-37e9a55bf6b6","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},"LayerId":{"name":"49ef93c7-62bb-45f4-b631-68c75f5a2d88","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_asteroidmedium","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},"resourceVersion":"1.0","name":"af22c0b2-75e4-4746-a62e-37e9a55bf6b6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Ship","path":"sprites/Spr_Ship/Spr_Ship.yy",},
+    "spriteId": {"name":"spr_asteroidmedium","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3e38cc06-72d2-4833-8e4c-25a0ca58321a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"788b8fb8-0c75-4d71-8be1-975f8b52a1ae","path":"sprites/Spr_Ship/Spr_Ship.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7877247f-27c6-4aad-9309-420866894297","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af22c0b2-75e4-4746-a62e-37e9a55bf6b6","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Ship","path":"sprites/Spr_Ship/Spr_Ship.yy",},
+    "parent": {"name":"spr_asteroidmedium","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Ship",
+    "name": "spr_asteroidmedium",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6da41ed4-35dd-4217-83d8-107187a761c0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"49ef93c7-62bb-45f4-b631-68c75f5a2d88","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Ship",
+  "name": "spr_asteroidmedium",
   "tags": [],
   "resourceType": "GMSprite",
 }
