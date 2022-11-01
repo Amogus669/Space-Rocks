@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "SpaceRocksFall2022",
   "resources": [
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":2,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":4,},
     {"id":{"name":"Spr_Ship","path":"sprites/Spr_Ship/Spr_Ship.yy",},"order":1,},
     {"id":{"name":"spr_asteroidmedium","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},"order":3,},
