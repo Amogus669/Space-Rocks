@@ -12,7 +12,7 @@ case rm_start:
 	);
 	draw_text(
 		room_width/2, 200, 
- @"Score 100 points to win!
+ @"Score 1000 points to win!
 
 UP: move 
 LEFT/RIGHT: change direction
