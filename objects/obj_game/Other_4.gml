@@ -12,4 +12,5 @@ if(room = rm_game) {
 			xx, yy, "Instances", obj_asteroid
 		);
 	}
+alarm[0] = room_speed *1;
 }
