@@ -1,10 +1,11 @@
 
 if(instance_exists(target)){
 
-cameraX = target.x = (cameraWidth/2);
-cameraY = target.y = (cameraHeight/2);
+cameraX = target.x - (cameraWidth/2);
+cameraY = target.y - (cameraHeight/2);
 
-cameraX = clamp(cameraX, 0, room_width);
+cameraX = clamp(cameraX, 0, room_width-cameraWidth);
+cameraY = clamp(cameraY, 0, room_height-cameraHeight);
 
 }
 

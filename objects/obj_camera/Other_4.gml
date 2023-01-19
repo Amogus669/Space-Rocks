@@ -20,5 +20,7 @@ displayHeight = cameraHeight * displayScale;
 window_set_size(displayWidth, displayHeight)
 surface_resize(application_surface, displayWidth, displayHeight);
 
-//set alarm so on next game frame, we center the window 
+//GUI
+display_set_gui_size(cameraWidth, cameraHeight);
+
 alarm[0] = 1;
